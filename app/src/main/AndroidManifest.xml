@@ -23,6 +23,7 @@
         <activity android:name=".Timetable" />
         <activity android:name=".Contact_us" />
         <activity android:name=".sendingemail" />
+        <activity android:name=".About" />
         <activity android:name=".gallary"></activity>
 
     </application>

@@ -14,10 +14,8 @@
         <TextView
             android:padding="3dp"
             android:text=""
-
             android:layout_weight="1"
             android:layout_width="0dp"
-
             android:textColor="#fdd700" />
 
         <TextView

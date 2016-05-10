@@ -18,13 +18,13 @@ public class Contact_us extends AppCompatActivity {
 
 
 
-    Button call;
+    TextView call;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_us);
 
-        call = (Button) findViewById(R.id.Callid);
+        call = (TextView) findViewById(R.id.Callid);
 
         call.setOnClickListener(new View.OnClickListener() {
 
