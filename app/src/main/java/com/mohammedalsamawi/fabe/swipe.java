@@ -17,7 +17,8 @@ import android.widget.TextView;
  */
 public class swipe extends PagerAdapter {
 
-    private int[] civil_Gallary ={R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,};
+    private int[] civil_Gallary ={R.drawable.a,R.drawable.aa,R.drawable.c,R.drawable.ab,R.drawable.e,R.drawable.ac,
+            R.drawable.b,R.drawable.d};
     private Context ctx;
     private LayoutInflater layoutInflater;
 

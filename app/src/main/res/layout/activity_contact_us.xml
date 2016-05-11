@@ -9,7 +9,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mohammedalsamawi.fabe.Contact_us"
     android:columnCount="10"
-    android:rowCount="20">
+    android:rowCount="20"
+    android:background="#000005">
 
 
     <ImageView
@@ -33,7 +34,8 @@
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_marginLeft="-220dp"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,7 +44,8 @@
         android:text="___________________________________"
         android:id="@+id/LIMKTXT"
         android:layout_row="3"
-        android:layout_column="0" />
+        android:layout_column="0"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +57,8 @@
         android:id="@+id/textView2"
         android:layout_row="10"
         android:layout_column="0"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,7 +68,8 @@
         android:id="@+id/textView3"
         android:layout_row="14"
         android:layout_column="0"
-        android:layout_marginBottom="300dp" />
+        android:layout_marginBottom="300dp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,7 +84,8 @@
         android:layout_marginRight="260dp"
         android:layout_marginLeft="-190dp"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -89,7 +95,8 @@
         android:id="@+id/textView6"
         android:layout_row="16"
         android:layout_column="0"
-        android:layout_marginTop="-50dp" />
+        android:layout_marginTop="-90dp"
+        android:textColor="#ffffff" />
 
     <ImageView
         android:layout_width="60dp"
@@ -98,7 +105,7 @@
         android:layout_row="17"
         android:layout_column="0"
         android:src="@drawable/maill"
-        android:layout_marginTop="-180dp"
+        android:layout_marginTop="-160dp"
         android:layout_marginBottom="270dp" />
 
 
@@ -113,9 +120,10 @@
         android:layout_column="9"
         android:layout_marginLeft="-190dp"
         android:layout_marginRight="260dp"
-        android:layout_marginTop="-170dp"
+        android:layout_marginTop="-150dp"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
 
 
     <ImageView
@@ -125,17 +133,17 @@
         android:layout_row="19"
         android:src="@drawable/calll"
         android:layout_column="0"
-        android:layout_marginTop="-410dp"
+        android:layout_marginTop="-390dp"
         android:layout_marginBottom="210dp" />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="150dp"
         android:src="@drawable/ft"
         android:id="@+id/lastline"
         android:layout_row="19"
         android:layout_column="0"
-        android:layout_marginTop="-250dp" />
+        android:layout_marginTop="-290dp" />
 
 
 </GridLayout>

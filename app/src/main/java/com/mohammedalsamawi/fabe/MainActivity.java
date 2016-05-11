@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton buhome = (ImageButton)findViewById(R.id.button);
 
-        Intent inthome = new Intent(MainActivity.this,Hhome.class);
+        Intent inthome = new Intent(this,Hhome.class);
 
         startActivity(inthome);
 

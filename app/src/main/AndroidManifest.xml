@@ -17,14 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hhome" />
+        <activity android:name=".Hhome">
+
+        </activity>
         <activity android:name=".lecturerspage" />
         <activity android:name=".lecturer_info" />
         <activity android:name=".Timetable" />
         <activity android:name=".Contact_us" />
         <activity android:name=".sendingemail" />
         <activity android:name=".About" />
-        <activity android:name=".gallary"></activity>
+        <activity android:name=".gallary">   </activity>
 
     </application>
 

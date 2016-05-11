@@ -23,7 +23,7 @@ public class Hhome extends AppCompatActivity {
     }
 
     public void Timetablepage(View view) {
-      //  ImageView lectButton = (ImageView) findViewById(R.id.timetableid);
+
         Intent timeIntent = new Intent(Hhome.this, Timetable.class);
         startActivity(timeIntent);
     }
