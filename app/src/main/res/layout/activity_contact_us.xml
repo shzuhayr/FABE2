@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +12,9 @@
     android:rowCount="20"
     android:background="#000005">
 
-
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <ImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -38,7 +40,7 @@
         android:textColor="#ffffff" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="___________________________________"
@@ -61,7 +63,7 @@
         android:textColor="#ffffff" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="___________________________________"
@@ -88,7 +90,7 @@
         android:textColor="#ffffff" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="___________________________________"
@@ -105,7 +107,7 @@
         android:layout_row="17"
         android:layout_column="0"
         android:src="@drawable/maill"
-        android:layout_marginTop="-160dp"
+        android:layout_marginTop="-150dp"
         android:layout_marginBottom="270dp" />
 
 
@@ -120,7 +122,7 @@
         android:layout_column="9"
         android:layout_marginLeft="-190dp"
         android:layout_marginRight="260dp"
-        android:layout_marginTop="-150dp"
+        android:layout_marginTop="-140dp"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="#ffffff" />
@@ -133,7 +135,7 @@
         android:layout_row="19"
         android:src="@drawable/calll"
         android:layout_column="0"
-        android:layout_marginTop="-390dp"
+        android:layout_marginTop="-395dp"
         android:layout_marginBottom="210dp" />
 
     <ImageView
@@ -143,8 +145,14 @@
         android:id="@+id/lastline"
         android:layout_row="19"
         android:layout_column="0"
-        android:layout_marginTop="-290dp" />
+        android:layout_marginTop="-300dp" />
 
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_row="2"
+        android:layout_column="0">
 
 </GridLayout>
-
+    </GridLayout>
+    </RelativeLayout>

@@ -33,16 +33,24 @@ public class Hhome extends AppCompatActivity {
         Intent ConIntent = new Intent(Hhome.this, Contact_us.class);
         startActivity(ConIntent);
     }
+
     public void Gallerypage(View view) {
         ImageView gallaryButton = (ImageView) findViewById(R.id.gallaryid);
         Intent gallIntent = new Intent(Hhome.this, gallary.class);
         startActivity(gallIntent);
     }
-    public void Aboutpage(View view){
-        ImageView Aboutbut = (ImageView)findViewById(R.id.aboutbutton);
+
+    public void Aboutpage(View view) {
+        //ImageView Aboutbut = (ImageView)findViewById(R.id.aboutbutton);
         Intent aboutint = new Intent(Hhome.this, About.class);
         startActivity(aboutint);
 
     }
-}
 
+    public void Calendarpage(View view) {
+        //ImageView Aboutbut = (ImageView)findViewById(R.id.aboutbutton);
+        Intent Calenderint = new Intent(Hhome.this, Calendar.class);
+        startActivity(Calenderint);
+
+    }
+}

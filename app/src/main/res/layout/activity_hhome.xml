@@ -51,7 +51,7 @@
         android:layout_row="1"
         android:layout_column="1"
         android:layout_marginLeft="8dp"
-        android:onClick="Calenderpagenderpage"/>
+        android:onClick="Calendarpage"/>
 
     <ImageView
         android:layout_width="170dp"
